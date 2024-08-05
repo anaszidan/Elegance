@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* start nav bar */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.big-img {
+    background-image: url(photos/4435.jpg);
+    min-height: 705px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    font-size: 40px;
+    /* font-family: "Ubuntu", sans-serif; */
+    font-family: "Outfit", sans-serif;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+nav span {
+    color: rgb(222, 81, 100);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-right: 10%;
+    margin-top: 40px;
+}
+
+nav ul li {
+    padding-left: 50px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+nav li a:hover {
+    color: rgb(0, 0, 0);
+    transition-duration: 0.5s;
+    background-color: rgb(222, 81, 100);
+}
+
+.great {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.great h1 {
+    color: white;
+    font-size: 70px;
+}
+.great p{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+.great button{
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    border: 3px solid rgb(255, 255, 255);
+    font-size: 20px;
+    
+}
+.great button:hover{
+    color: rgb(0, 0, 0);
+    transition-duration: 0.5s;
+    background-color: rgb(222, 81, 100);
+    border: none;
+}
+
+/* end nav bar */
+
+/* start second section of the page */
+.about{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(rgb(220, 144, 174) ,rgb(235, 203, 221));
+    height: 400px;
+}
+h2{
+    text-align: center;
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 50px;
+    
+}
+.about h2{
+    left: 44%;
+    outline: 3px solid rgb(230, 83, 10)
+}
+.clear{
+    clear: both;
+}
+.about p{
+    margin-left: 50px;
+
+}
+.about p::first-letter{
+    color: rgb(233, 40, 130);
+    font-size: 30px;
+    
+}
+.exp{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about img{
+    border-radius: 10px;
+    margin-right: 70px;
+    box-shadow: 10px 10px 30px rgb(26, 26, 26);
+}
+/* end second section of the page */
+
+/* start third section of the page */
+.TableSt{
+    background-image: linear-gradient(rgb(235, 203, 221),rgb(244, 216, 184));
+    height: 720px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.TableSt h2{
+    left: 45%;
+    outline: 3px solid rgb(222, 81, 100);
+ }
+table, th, td{
+    border: 3px solid;
+}
+th{
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+}
+td{
+padding: 10px; 
+}
+table {
+    margin-top: 80px;
+    width: 90%;
+    margin-left: 5%;
+    border-collapse: collapse;
+    text-align: center;
+    align-items: center;
+  }
+/* end third section of the page */
+
+/* start fourth section of the page */
+.ideas{
+    background-image: linear-gradient(rgb(244, 216, 184),rgb(224, 181, 244));
+    height: 750px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ideas h2{
+    left: 42%;
+    outline: 3px solid rgb(153, 10, 230);
+}
+.ideas ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    list-style: inside square;
+}
+.ideas li{
+    
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    background: rgb(0, 0, 0);
+    padding: 20px; 
+    box-shadow: 8px 8px 30px rgb(84, 83, 83);
+}
+.ideas li:hover{
+    color: rgb(153, 10, 230);
+    transition-duration: 0.8s;
+}
+
+.prod{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.card{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 30px rgb(84, 83, 83);
+}
+.card img{
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.card button{
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+.card button:hover{
+    background-color: rgb(222, 81, 100);
+    color: black;
+    transition-duration: 0.4s;
+}
+/* end fourth section of the page */
+
+/* start footer */
+footer{
+    height: 500px;
+    background-image: linear-gradient(rgb(206, 184, 228), rgb(115, 0, 238));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    list-style:none;
+    font-size: 20px;
+}
+footer li{
+    /* margin-top: 30px; */
+    color: rgb(255, 255, 255);
+    padding: 20px 70px;
+    cursor: pointer;
+}
+footer li:hover {
+    color: rgb(0, 0, 0);
+    transition-duration: 0.5s;
+    background: rgb(255, 255, 255);
+}
+hr{
+    border: 1px solid rgb(255, 255, 255);
+}
+footer p{
+    text-align: center;
+    margin-top: 120px;
+    color: white;
+    font-size: 18px;;
+}
+.ico{
+    text-align: center;
+    cursor: pointer;
+}
+.ico i{
+    display: inline-block;
+    margin-top: 75px;
+    padding: 0px 70px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.ico i:hover{
+    color: rgb(0, 0, 0);
+    transition-duration: 0.5s;
+}
+footer hr{
+    border: 1px white solid;
+}
+.copp{
+    margin-top: 70px;
+}
+/* end footer */
+
